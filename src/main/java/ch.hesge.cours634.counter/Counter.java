@@ -5,12 +5,12 @@ public class Counter implements ICounter {
 
     public Counter(){}
     @Override
-    public void inc() throws CounterException {
+    public void inc(){
         this.cpt+=1;
     }
 
     @Override
-    public void add(int step) throws CounterException {
+    public void add(int step) {
         this.cpt += step;
     }
 
